@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:insert="navigation.html :: headerfiles">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+<body th:style="'background:url('+ @{/images/er.png} +') no-repeat center center fixed;'">
+<header th:insert="navigation.html :: nav"></header>
+<div style="width:50%; margin:auto; align-content: center;">
+    <h1 style="text-align:center;">Welcome to HYCU!</h1>
+</div>
+</body>
+</html>
