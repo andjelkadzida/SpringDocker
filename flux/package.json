@@ -1,0 +1,24 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "Flux application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andjelka Dzida",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "*",
+    "flux": "*",
+    "gulp": "^3.9.1",
+    "object-assign": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
